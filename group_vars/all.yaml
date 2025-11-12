@@ -1,9 +1,9 @@
 MONGODB_HOST: mongodb-{{ env }}.devops-phani.fun # mongodb-dev.devops-phani.fun
 REDIS_HOST: redis-{{ env }}.devops-phani.fun
-CATALOGUE_HOST: catalogue-{{ env }}.devops-phani.fun
-CART_HOST: cart-{{ env }}.devops-phani.fun
-USER_HOST: user-{{ env }}.devops-phani.fun
+CATALOGUE_HOST: catalogue.backend-alb-{{ env }}.devops-phani.fun
+CART_HOST: cart.backend-alb-{{ env }}.devops-phani.fun
+USER_HOST: user.backend-alb-{{ env }}.devops-phani.fun
 RABBITMQ_HOST: rabbitmq-{{ env }}.devops-phani.fun
 MYSQL_HOST: mysql-{{ env }}.devops-phani.fun
-SHIPPING_HOST: shipping-{{ env }}.devops-phani.fun
-PAYMENT_HOST: payment-{{ env }}.devops-phani.fun
+SHIPPING_HOST: shipping.backend-alb-{{ env }}.devops-phani.fun
+PAYMENT_HOST: payment.backend-alb-{{ env }}.devops-phani.fun
